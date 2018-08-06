@@ -1,0 +1,52 @@
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+
+} 
+#banner{
+        width: 100%;
+        height: auto;}
+
+* {
+    box-sizing: border-box;
+}
+.navbar-brand img{ 
+	position:relative;
+	top:-5px;
+	height: 30px;
+}
+.i1,.i2,.i3{
+
+	width: 100%;
+	height: 100px;
+}
+#p1,#p2,#p3{
+	display: block;
+}
+#ff,#pp,#vv{ background-color: #D3D3D3;
+   text-align: center; 
+   margin-top: 20px;
+   background-size:auto; }
+#ben{
+	display:inline-block;
+}
+
+.tasouira{
+	height: 200px;
+}
+
+.nn{ 
+    background-color: skyblue;
+  }
+
+ .cadre{
+ 	background-color: skyblue;
+ 	width: 80%;
+ 	height: 300px;
+ }
+  .lorem{
+  	 	width: 80%;
+ 	height: 300px;
+
+  }
+  .dub{
+  	font-weight: 900;  }
